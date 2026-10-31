@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#042f2e" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#brandGrad)" />
+  
+  <!-- Outer glowing ring accent -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="8" />
+  
+  <!-- Stylized F / Chart Bars / Target Emblem inside safe zone -->
+  <g transform="translate(116, 116)">
+    <!-- Base chart bars -->
+    <rect x="30" y="160" width="40" height="90" rx="8" fill="#3b82f6" opacity="0.85" />
+    <rect x="90" y="110" width="40" height="140" rx="8" fill="#60a5fa" opacity="0.9" />
+    <rect x="150" y="60" width="40" height="190" rx="8" fill="url(#accentGrad)" />
+    <rect x="210" y="20" width="40" height="230" rx="8" fill="#10b981" />
+    
+    <!-- Upward Growth arrow curve -->
+    <path d="M 30 180 Q 130 140, 230 40" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" />
+    <polygon points="236,26 238,62 204,44" fill="#ffffff" />
+    
+    <!-- Kwanza (Kz) / Financial Target Sparkle -->
+    <circle cx="236" cy="36" r="14" fill="#34d399" opacity="0.5" />
+  </g>
+</svg>

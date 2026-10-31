@@ -1,0 +1,6 @@
+{
+  "name": "FocoFinance",
+  "description": "Aplicação inteligente de planeamento financeiro pessoal em Kwanzas (Kz), com gestão de rendimentos, despesas, fundo de emergência, metas e simulações futuras.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
